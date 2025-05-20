@@ -1,0 +1,35 @@
+# Torch stack
+torch
+torchvision
+accelerate
+
+# Image and PDF utils (for Qwen-VL)
+Pillow
+opencv-python
+pymupdf
+
+# Hugging Face ecosystem
+transformers
+tokenizers
+datasets
+huggingface_hub
+qwen_vl_utils
+crewai
+langchain
+openai
+
+# Additional dependencies for paddleocr and msal
+cryptography<47
+PyJWT[crypto]<3
+beautifulsoup4
+fonttools>=4.24.0
+lmdb
+numpy
+pyyaml
+rapidfuzz
+scikit-image
+tqdm
+
+# Optional tools for agent tools
+duckduckgo-search
+wikipedia

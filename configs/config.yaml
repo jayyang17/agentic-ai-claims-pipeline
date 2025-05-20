@@ -1,0 +1,44 @@
+categories:
+  - tax_invoice
+  - claim_form
+  - medical_report
+  - discharge_summary
+  - medical_certificate
+  - letter_of_guarantee_log
+  - cpf_medisave
+  - referral_letter
+
+
+# Define field list
+field_map:
+  tax_invoice:
+    - patient_name
+    - patient_nric
+    - invoice_no
+    - invoice_date
+    - clinic_name
+  
+  medical_certificate:
+    - patient_name
+    - patient_nric
+    - mc_from_date
+    - mc_to_date
+    - mc_days
+    - mc_serial_number
+
+  claim_form:
+    - patient_name
+    - patient_nric
+    - visit_date
+    - company_name
+    - claim_type
+
+  letter_of_guarantee:
+    - patient_name
+    - patient_nric
+    - log_number
+    - ward_class
+    - diagnosis_code
+    - admission_hospital
+    - admission_date
+    - remarks

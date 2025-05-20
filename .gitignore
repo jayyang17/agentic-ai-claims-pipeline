@@ -1,0 +1,10 @@
+attachments
+pdf_pages
+qwen_model
+__pycache__/
+*.pyc
+*.pkl
+*.pt
+*.bin
+*.safetensors
+*.gguf
